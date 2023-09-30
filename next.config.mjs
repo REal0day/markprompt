@@ -33,6 +33,7 @@ const corsHeaders = [
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
+  output: "standalone", // Add this line
   reactStrictMode: true,
   images: {
     remotePatterns: [
